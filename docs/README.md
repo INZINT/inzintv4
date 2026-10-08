@@ -1,6 +1,6 @@
 # Inzint static site — documentation
 
-_Last verified: 2026-07-16 (by docs agent)_
+_Last verified: 2026-10-08 (by docs agent, TSK-1040)_
 
 Start here. This is the shared knowledge base for the **Inzint marketing website**
 (`INZINT/inzintv4`) — read it before working, update it after changing things.

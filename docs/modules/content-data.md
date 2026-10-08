@@ -41,7 +41,8 @@ Do **not** invent new icon keys in content — reuse the closest existing one, o
   mapping `@` → `./src` (mirrors the tsconfig path so tests import modules the same way the app does,
   without adding a Vite/tsconfig-paths plugin dependency).
 - Tests live in `src/**/__tests__/**`. Today: `src/data/__tests__/ai-agent-development.test.ts`
-  (9 tests).
+  (9 tests) and `src/data/__tests__/company.test.ts` (2 tests: `company.contact.phoneJobs` is the
+  current HR/jobs number `+91 92899 09175`; primary `email`/`phone` are non-empty).
 
 ### What the content-contract test asserts (`ai-agent-development.test.ts`)
 
