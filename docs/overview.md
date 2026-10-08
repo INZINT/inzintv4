@@ -30,6 +30,17 @@ Routes live under `src/app/**`, one folder per route (App Router). Major areas:
 - `/about/**`, `/careers/**`, `/contact`, `/hire-developers`, `/resources/**`, `/support`, and legal
   pages (`privacy-policy`, `terms-of-service`, `cancellation-refund-policy`).
 
+### Contact details on the site
+
+- General: `hello@inzint.com`, `+91 92899 09174` (`src/data/company.ts` → `company.contact.email` /
+  `.phone`).
+- HR / careers: `hr@inzint.com`, `+91 92899 09175`. The phone is `company.contact.phoneJobs` in
+  `src/data/company.ts`; the `/careers/ai-ml-engineer-trainee-2026` page ("Interested in Future
+  Opportunities?" block) currently **hardcodes** both values in its `page.tsx` rather than reading
+  `company.ts` — update both places if the HR contact changes.
+- Several sections also hardcode contact strings (e.g. `ContactInfoSection.tsx`, `MobileMenu.tsx`,
+  `LocationsSection.tsx`) — grep `src/` before changing a phone/email.
+
 ## Featured area: the AI Agent Development page
 
 The most recently revamped feature is the **AI Agent Development** page at
